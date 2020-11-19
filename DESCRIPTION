@@ -2,7 +2,7 @@ Package: AggregateR
 Type: Package
 Title: Aggregate Numeric, Date and Categorical Variables
 Version: 0.1.1
-Date: 2020-11-17
+Date: 2020-11-18
 Imports:
     stats,
     utils,
