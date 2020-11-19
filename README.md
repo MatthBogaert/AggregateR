@@ -1,5 +1,6 @@
 [![CRAN checks](https://cranchecks.info/badges/summary/AggregateR)](https://cran.r-project.org/web/checks/check_results_AggregateR.html)
 [![](https://www.r-pkg.org/badges/version/AggregateR?color=orange)](https://cran.r-project.org/package=AggregateR)
+[![](https://img.shields.io/badge/devel%20version-0.1.1-orange.svg)](https://github.com/AggregateR)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/AggregateR?color=blue)](https://cran.r-project.org/package=AggregateR)
 
 
