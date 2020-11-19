@@ -28,7 +28,7 @@ devtools::install_github ('MatthBogaert/AggregateR')
 
 # Usage
 
-This code blocks shows how the `Aggregate` function works when confronted with a table with numeric, categorical and Date variables. `Aggregate` accepts a `data.frame`, `tibble` or `data.table` and outputs by default a `data.table`.
+This code blocks shows how the `Aggregate` function works when confronted with a table with numeric, categorical and Date variables. `Aggregate` accepts a `data.frame`, `tibble` or `data.table` and outputs by default a `data.table`. Note that the 'by' parameter should be a variable in the table 'x' and only accepts a charachter as an input.
 
 ```
 #Create some data
