@@ -1,5 +1,6 @@
 [![CRAN checks](https://cranchecks.info/badges/summary/AggregateR)](https://cran.r-project.org/web/checks/check_results_AggregateR.html)
 [![](https://www.r-pkg.org/badges/version/AggregateR?color=orange)](https://cran.r-project.org/package=AggregateR)
+[![](https://img.shields.io/badge/devel%20version-0.1.1-orange.svg)](https://github.com/AggregateR)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/AggregateR?color=blue)](https://cran.r-project.org/package=AggregateR)
 
 
@@ -28,7 +29,7 @@ devtools::install_github ('MatthBogaert/AggregateR')
 
 # Usage
 
-This code blocks shows how the `Aggregate` function works when confronted with a table with numeric, categorical and Date variables. `Aggregate` accepts a `data.frame`, `tibble` or `data.table` and outputs by default a `data.table`.
+This code blocks shows how the `Aggregate` function works when confronted with a table with numeric, categorical and Date variables. `Aggregate` accepts a `data.frame`, `tibble` or `data.table` and outputs by default a `data.table`. Note that the 'by' parameter should be a variable in the table 'x' and only accepts a charachter as an input.
 
 ```
 #Create some data
