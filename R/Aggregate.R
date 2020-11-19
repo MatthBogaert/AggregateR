@@ -122,10 +122,10 @@ Aggregate <- function (x, by, end_ind = Sys.Date(), format = '%Y-%m-%d', tibble 
     } else if (any(categoricals == TRUE)) {
       if (cl == 'data.frame') final <- data.frame(dummies_df)
       else final <- data.table (dummies_df)
-    } else if (any(numerics_df == TRUE)) {
+    } else if (any(numerics == TRUE)) {
       if (cl == 'data.frame') final <- data.frame(numerics_df)
       else final <- data.table (numerics_df)
-    } else if (any(dates_df == TRUE)) {
+    } else if (any(dates == TRUE)) {
       if (cl == 'data.frame') final <- data.frame(dates_df)
       else final <- data.table (dates_df)
     }
