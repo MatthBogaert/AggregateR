@@ -48,7 +48,7 @@ Aggregate(x=data,by='ID')
 ## 1:  1     24911          0      25080           1    10006         0     9990         0    10170
 ## 2:  2     24938          0      25160           1     9985         0    10073         0    10030
 ## 3:  3     25070          1      24933           0     9845         0     9987         0    10108
-##"4:  4     24926          0      24982           1     9923         0     9891         0     9901
+## 4:  4     24926          0      24982           1     9923         0     9891         0     9901
 ## V2_3_mode V2_4_sum V2_4_mode V2_5_sum V2_5_mode    V3_sum   V3_mean   V3_var   V4_sum  V4_mean
 ## 1:         0     9887         0     9938         0 498324620  9968.287 33440187 32426370 648.6442
 ## 2:         0     9962         0    10048         0 499201602  9964.502 33370364 32606808 650.8605
@@ -61,7 +61,7 @@ Aggregate(x=data,by='ID')
 ## 4: 41224.02        2172          1
 ```
 
-As mentioned, the user can also show to output a tibble for nicer printing. 
+As mentioned, the user can also output a tibble for nicer printing. 
 
 ```
 Aggregate(x=data,by='ID', tibble = TRUE)
