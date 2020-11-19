@@ -1,5 +1,9 @@
 Change log:
 
+Version 0.1.1, Nov 18, 2020
+----------------------------
+Small bug fix such that functions works when table only cotains numerics or dates. 
+
 Version 0.1.0, Nov 17, 2020
 ----------------------------
 Re-written the code in data.table for computational speed. 
